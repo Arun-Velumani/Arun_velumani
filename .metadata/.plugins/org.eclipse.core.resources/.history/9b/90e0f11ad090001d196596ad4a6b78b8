@@ -1,0 +1,8 @@
+package sorted;
+import java.util.*;
+public class RevenueCollect {
+ public static void main(String[] args){
+	 TreeSet<Revenue> s=new TreeSet(new sortByAmount());
+	 
+ }
+}

@@ -1,0 +1,21 @@
+package listDemo;
+
+import java.awt.List;
+import java.util.*;
+
+public class listprog01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> stringlist=new ArrayList<String>();
+		stringlist.add("tea");
+		stringlist.add("Coffee");
+		stringlist.add("black Coffee");
+		stringlist.add("expresso");
+		stringlist.add("normal coffee");
+		System.out.println("Third element: "+stringlist.get(3));
+		
+
+	}
+
+}

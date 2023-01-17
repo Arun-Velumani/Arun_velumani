@@ -1,0 +1,24 @@
+package streamdemo;
+import java.util.stream.*;
+import java.util.*;
+import java.io.*;
+import java.util.function.*;
+
+
+public class Builder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> s=new ArrayList();
+		s.add("coffee");
+		s.add("banana");
+		s.add("papaya");
+		s.add("pineapple");
+		s.add("strawberry");
+		s.add("tea");
+		s.add("expresso");
+		Stream <String>stream=s.stream();
+		stream.forEach(System.out::println);
+	}
+
+}

@@ -1,0 +1,15 @@
+package strings;
+
+public class string04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 String str="It is raining outside!Can I have a raincoat Please";
+		 String [] str1=str.split(" ");
+		 System.out.println(str1);
+		 
+		 
+		 
+	}
+      
+}
